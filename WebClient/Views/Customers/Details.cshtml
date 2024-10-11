@@ -1,0 +1,31 @@
+﻿
+<div class="container-fluid">
+    <h2>
+        Get Customers by Id
+        <a class="btn btn-sm btn-primary" asp-action="Index">Back</a>
+    </h2>
+    <div class="form-group">
+        <label for="id">Id:</label>
+        <input type="text" class="form-control" id="Id" />
+    </div>
+    <div class="text-center panel-body">
+        <button id="GetButton" class="btn btn-sm btn-primary">
+            Get Customer
+        </button>
+    </div>
+
+    <div id="resultDiv" style="display:none">
+        <h2>Customer</h2>
+        <table class="table table-sm table-striped table-bordered m-2 text-center">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Name</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+</div>
+<script defer src="~/js/details.js"></script>
