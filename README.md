@@ -442,7 +442,7 @@ $(document).ready(function () {
 <script defer src="~/js/details.js"></script>
 ```
 
-### 3.0 detail.js
+### 2.10 detail.js
 
 ```javascript
 $(document).ready(function () {
